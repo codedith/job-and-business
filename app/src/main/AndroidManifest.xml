@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xcrino.moro">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/moro"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/moro"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.TestingActivity"></activity>
+        <activity android:name=".Activity.CashWithdrawalActivity" />
+        <activity android:name=".BusinessModules.CampaignListForUserActivity" />
+        <activity android:name=".BusinessModules.CampaignDetailActivity" />
+        <activity android:name=".JobModule.CandidateSearchByIndustry" />
+        <activity android:name=".JobModule.CandidateSearchActivity" />
+        <activity android:name=".JobModule.ApplyJobActivity" />
+        <activity android:name=".JobModule.HotJobActivity" />
+        <activity android:name=".JobModule.RecommendedJobActivity" />
+        <activity android:name=".JobModule.JobSearchBySearchButton" />
+        <activity android:name=".JobModule.JobSearchByIndustryActivity" />
+        <activity android:name=".JobModule.NewJobSearchActivity" />
+        <activity android:name=".BusinessModules.PreviousSelectionActivity" />
+        <activity android:name=".BusinessModules.SharedActivity" />
+        <activity android:name=".SettingsModule.HelpsActivity" />
+        <activity android:name=".SettingsModule.DeviceActivity" />
+        <activity android:name=".SettingsModule.DataAndStorageActivity" />
+        <activity android:name=".SettingsModule.ChatSettingsActivity" />
+        <activity android:name=".SettingsModule.PrivacyAndSecurityActivity" />
+        <activity android:name=".SettingsModule.NotificationAndSoundsActivity" />
+        <activity android:name=".JobModule.RecruiterCandidateListActivity" />
+        <activity android:name=".JobModule.RecruiterSubscriptionWalletActivity" />
+        <activity android:name=".JobModule.EmployeeSubscriptionActivity" />
+        <activity android:name=".BusinessModules.CampaignVideoActivity" />
+        <activity android:name=".BusinessModules.CampaignMixActivity" />
+        <activity android:name=".BusinessModules.CampaignTextActivity" />
+        <activity android:name=".BusinessModules.CampaignImageUploadActivity" />
+        <activity android:name=".BusinessModules.CampaignModeActivity" />
+        <activity android:name=".BusinessModules.BusinessCompanyDetailsActivity" />
+        <activity android:name=".JobModule.FiltersActivity" />
+        <activity android:name=".Activity.PaymentActivity" />
+        <activity android:name=".JobModule.RecruiterEditDetailActivity" />
+        <activity
+            android:name=".BusinessModules.BusinessCreateProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".JobModule.RecruiterAppReceivedActivity" />
+        <activity android:name=".JobModule.RecruiterPostedJobActivity" />
+        <activity android:name=".JobModule.RecruiterCandidateDetailActivity" />
+        <activity android:name=".JobModule.RecruiterSavedCandidateActivity" />
+        <activity
+            android:name=".JobModule.RecruiterAddJobActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".JobModule.RecruiterProfileDetailsActivity" />
+        <activity
+            android:name=".JobModule.RecruiterCompanyProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".SliderPageActivity.MultiSupportLanguageActivity" />
+        <activity android:name=".JobModule.EmployeeRecruiterInterestActivity" />
+        <activity android:name=".JobModule.EmployeeAppliedActivity" />
+        <activity android:name=".JobModule.EmployeeJobDetailActivity" />
+        <activity
+            android:name=".JobModule.EmployeeJobSearchActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".JobModule.EmployeeEditProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".JobModule.EmployeeSavedJobActivity" />
+        <activity android:name=".JobModule.EmployeeNewJobActivity" />
+        <activity android:name=".JobModule.EmployeeProfileDetailsActivity" />
+        <activity android:name=".Activity.CallsActivity" />
+        <activity android:name=".Activity.ContactActivity" />
+        <activity android:name=".Activity.PrivacyPolicyActivity" />
+        <activity
+            android:name=".Activity.CreateChannelActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".SliderPageActivity.SliderImageScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.NewSecretChatActivity" />
+        <activity android:name=".SliderPageActivity.SplashScreenActivity" />
+        <activity
+            android:name=".Activity.CreateProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.CreateNewGroupActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Activity.SubscriptionPlanActivity" />
+        <activity android:name=".Activity.WalletActivity" />
+        <activity android:name=".Activity.StartChatActivity" />
+        <activity
+            android:name=".Activity.InviteFriendsSettingActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".Activity.UserDetailsSettingActivity" />
+        <activity
+            android:name=".Activity.ChattingActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Activity.SettingsActivity" />
+        <activity
+            android:name=".Activity.DashboardActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Activity.OTPActivity" />
+        <activity android:name=".Activity.LogInActivity" />
+
+        <receiver
+            android:name=".Utilities.SmsBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVE" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_t1PLPwtYzop0va" />
+
+        <service android:name=".Mesibo.fcm.FirebaseMessageReceiver">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/moro" />
+    </application>
+
+</manifest>

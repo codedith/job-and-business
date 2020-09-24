@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/business_profile"
+        android:title="Business Profile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/catalog"
+        android:title="Catalog"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/jobs"
+        android:title="Jobs"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/short_link"
+        android:title="Short Link"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/starred_messages"
+        android:title="Starred Messages"
+        app:showAsAction="never"/>-->
+
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>

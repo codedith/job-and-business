@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+
+       <!-- <item
+            android:id="@+id/new_add_account"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add Account" />-->
+
+        <!-- <item
+             android:id="@+id/new_Secret_Chat"
+             android:icon="@drawable/ic_secret_chat"
+             android:title="New Secret Chat" />
+
+         <item
+             android:id="@+id/create_Channel"
+             android:title="Create Channel" />
+
+         <item
+             android:id="@+id/create_Group"
+             android:icon="@drawable/ic_group"
+             android:title="Create Group" />
+
+         <item
+             android:id="@+id/new_BroadCast"
+             android:title="New BroadCast" />-->
+
+        <item
+            android:id="@+id/job_DashBoard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Job Dashboard" />
+
+        <item
+            android:id="@+id/campaign_list"
+            android:title="Campaign List"
+            android:icon="@drawable/notepad"/>
+
+        <item
+            android:id="@+id/business_promotions"
+            android:icon="@drawable/ic_promotion"
+            android:title="Business Booster" />
+
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_import_contacts"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/calls"
+            android:icon="@drawable/ic_call_chat"
+            android:title="Calls" />
+
+        <!-- <item
+             android:id="@+id/wallet"
+             android:icon="@drawable/ic_account_wallet"
+             android:title="Wallet" />-->
+
+        <item
+            android:id="@+id/starred_sms"
+            android:icon="@drawable/ic_starred"
+            android:title="Starred Messages" />
+
+        <item
+            android:id="@+id/invite_friends"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Invite Friends" />
+
+        <!-- <item
+             android:id="@+id/leveled_sms"
+             android:title="Leveled Messages" />-->
+
+        <item
+            android:id="@+id/backUp_System"
+            android:icon="@drawable/chat_backup"
+            android:title="BackUp System" />
+
+        <!--<item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/terms"
+            android:title="MoRo Policy" />-->
+
+        <!-- <item
+             android:id="@+id/mogo_faq"
+             android:icon="@drawable/info"
+             android:title="MoRo FAQ" />-->
+
+        <item
+            android:id="@+id/rate_app"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate Us" />
+
+        <!--<item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/invite"
+            android:title="Contact Us" />-->
+
+    </group>
+</menu>

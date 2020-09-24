@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_dot_active">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+
+    </array>
+
+    <color name="placeholder_bg">#dddddd</color>
+
+    <array name="array_dot_inactive">
+        <item>@color/placeholder_bg</item>
+        <item>@color/placeholder_bg</item>
+        <item>@color/placeholder_bg</item>
+        <item>@color/placeholder_bg</item>
+        <item>@color/placeholder_bg</item>
+        <item>@color/placeholder_bg</item>
+    </array>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/bg_layout_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/job_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/job_title"
+                android:textColor="@color/text_purple"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/required_exp_package"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Required_Experience_Salary_Package"
+                android:textColor="@color/text_purple"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/company_name_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Company_Name_Job_Location"
+                android:textColor="@color/text_purple"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-medium"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_purple"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/recruiter_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/user_dummy"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/recruiter_img"
+                android:layout_toLeftOf="@+id/more_option"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/recruiter_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Recruiter_Name"
+                    android:textColor="@color/text_purple"
+                    android:textStyle="normal"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:id="@+id/recruiter_company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Recruiter_Company_Name"
+                    android:textColor="@color/text_purple"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/more_option"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_more_settings"
+                android:layout_alignParentRight="true"
+                android:tint="@color/light_purple"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

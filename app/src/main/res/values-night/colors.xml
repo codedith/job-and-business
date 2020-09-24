@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#404040</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightColorRed">#FA2A06</color>
+    <color name="lightColorGreen">#5CC960</color>
+    <color name="tabcolorAccent">#595e73</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="field_black">#434343</color>
+    <color name="text_black">#505050</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="light_purple">#a4a4a4</color>
+    <color name="lighter_purple">#bb86fc</color>
+    <color name="lightest_purple">#e9eaff</color>
+    <color name="green">#b0d71a</color>
+    <color name="text_purple">#FFFFFF</color>
+    <color name="bg_pink">#edcaea</color>
+    <color name="fb_color">#3f51b5</color>
+    <color name="twitter_color">#03a9f4</color>
+    <color name="linkedin_color">#0077b5</color>
+    <color name="instagram_color">#306490</color>
+
+    <color name="bg_layout_white">#1a1a1a</color>
+    <color name="bg_layout_no_color">#262626</color>
+    <color name="field_color">#6D6A6A</color>
+    <color name="chat_field_text">#3b2a6e</color>
+
+</resources>

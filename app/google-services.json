@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "172682404783",
+    "firebase_url": "https://mogo-dc936.firebaseio.com",
+    "project_id": "mogo-dc936",
+    "storage_bucket": "mogo-dc936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172682404783:android:e0609c3f52e471793d055a",
+        "android_client_info": {
+          "package_name": "com.xcrino.chatterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172682404783-rkevj89dgoqfv5gria7qje72h4et65e7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xcrino.chatterapp",
+            "certificate_hash": "7db769b52d20f2df08655a7db0c5e389de1817ac"
+          }
+        },
+        {
+          "client_id": "172682404783-0qd38ilgg53i945s70jubkohu161b5lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzPTWg3esc6AFludUlBUe--RyCWCKCg_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172682404783-0qd38ilgg53i945s70jubkohu161b5lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

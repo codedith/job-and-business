@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#717892</color>
+    <color name="colorPrimaryDark">#777e98</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightColorRed">#FA2A06</color>
+    <color name="lightColorGreen">#5CC960</color>
+    <color name="tabcolorAccent">#595e73</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="field_black">#434343</color>
+    <color name="text_black">#505050</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="light_purple">#7c6dd6</color>
+    <color name="lighter_purple">#b4afe9</color>
+    <color name="lightest_purple">#e9eaff</color>
+    <color name="green">#b0d71a</color>
+    <color name="text_purple">#3b2a6e</color>
+    <color name="bg_pink">#edcaea</color>
+    <color name="fb_color">#3f51b5</color>
+    <color name="twitter_color">#03a9f4</color>
+    <color name="linkedin_color">#0077b5</color>
+    <color name="instagram_color">#306490</color>
+
+    <color name="bg_layout_white">#FFFFFF</color>
+    <color name="bg_layout_no_color">#F7F7F7</color>
+    <color name="field_color">#FFFFFF</color>
+    <color name="chat_field_text">#3b2a6e</color>
+    <color name="dark_green">#FF28AF13</color>
+    <color name="light_green">#AAF19F</color>
+    <color name="sky_blue">#8ed9f8</color>
+    <color name="dark_skyblue">#00adef</color>
+    <color name="light_green_parent">#8cc63e</color>
+    <color name="child_lightgreen">#c4df9c</color>
+    <color name="dark_red">#ff0000</color>
+    <color name="light_red">#ff9999</color>
+    <color name="dark_orange">#ff8000</color>
+    <color name="light_orange">#ffbf80</color>
+    <color name="dark_blue">#4688c7</color>
+    <color name="light_blue">#a3c9ed</color>
+    <color name="dark_pink">#e65e6c</color>
+    <color name="light_pink">#f1a7ae</color>
+
+    <color name="dark_violet">#52bfb0</color>
+    <color name="light_violet">#8ee4d9</color>
+
+
+</resources>

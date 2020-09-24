@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/bg_layout_white"
+    app:cardCornerRadius="5dp">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/company_img"-->
+    <!--                android:layout_width="30dp"-->
+    <!--                android:layout_height="30dp"-->
+    <!--                android:src="@drawable/user_dummy"/>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_marginLeft="10dp">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/job_title"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/job_title"-->
+    <!--                    android:textColor="@color/text_purple"-->
+    <!--                    android:textSize="16sp"-->
+    <!--                    android:textStyle="bold"/>-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/company_name"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/Company_Name"-->
+    <!--                    android:textColor="@color/text_purple"-->
+    <!--                    android:textSize="14sp"-->
+    <!--                    android:textStyle="normal"-->
+    <!--                    android:fontFamily="sans-serif-medium"/>-->
+
+    <!--            </LinearLayout>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center_vertical"-->
+    <!--            android:layout_marginTop="5dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:src="@drawable/ic_job_experience"-->
+    <!--                android:tint="@color/text_purple"-->
+    <!--                android:padding="5dp"/>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/job_experience"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/Job_Experience"-->
+    <!--                android:textColor="@color/text_purple"-->
+    <!--                android:textSize="14sp"-->
+    <!--                android:layout_marginLeft="15dp"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:src="@drawable/ic_location"-->
+    <!--                android:tint="@color/text_purple"-->
+    <!--                android:padding="5dp"/>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/job_location"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/Job_Location"-->
+    <!--                android:textColor="@color/text_purple"-->
+    <!--                android:textSize="14sp"-->
+    <!--                android:layout_marginLeft="15dp"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:src="@drawable/ic_skills"-->
+    <!--                android:tint="@color/text_purple"-->
+    <!--                android:rotation="180"-->
+    <!--                android:padding="4dp"/>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/job_skills"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/job_skills"-->
+    <!--                android:textColor="@color/text_purple"-->
+    <!--                android:textSize="14sp"-->
+    <!--                android:layout_marginLeft="15dp"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:src="@drawable/ic_salary_package"-->
+    <!--                android:tint="@color/text_purple"-->
+    <!--                android:padding="5dp"/>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/salary_package"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/Salary_Package"-->
+    <!--                android:textColor="@color/text_purple"-->
+    <!--                android:textSize="14sp"-->
+    <!--                android:layout_marginLeft="15dp"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <View-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="1dp"-->
+    <!--            android:background="@color/lighter_purple"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginRight="20dp"/>-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/posted_date"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/Posted_a_day_ago"-->
+    <!--                android:textSize="10sp"-->
+    <!--                android:textColor="@color/light_purple"-->
+    <!--                android:layout_centerVertical="true"-->
+    <!--                android:layout_marginLeft="10dp"/>-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/save_job_star"-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:src="@drawable/ic_star"-->
+    <!--                android:layout_alignParentRight="true"-->
+    <!--                android:tint="@color/light_purple"-->
+    <!--                android:padding="2dp"-->
+    <!--                android:layout_marginRight="10dp"/>-->
+
+    <!--        </RelativeLayout>-->
+
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/company_img"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/user_dummy" />
+
+                <TextView
+                    android:id="@+id/job_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Hadoop"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/save_job_star"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_star" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="IBM"
+                android:textColor="@color/text_purple"
+                android:textSize="14sp" />
+
+            <TextView
+
+                android:id="@+id/posted_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="end"
+                android:text="@string/Posted_a_day_ago"
+                android:textColor="@color/text_purple"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    app:srcCompat="@drawable/dot" />
+
+                <TextView
+                    android:id="@+id/job_experience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="2-4 Years"
+                    android:textColor="@color/text_purple"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    app:srcCompat="@drawable/dot" />
+
+                <TextView
+                    android:id="@+id/salary_package"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="10 LPA"
+                    android:textColor="@color/text_purple"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/dot" />
+
+                <TextView
+                    android:id="@+id/job_skills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Skills"
+                    android:textColor="@color/text_purple"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    app:srcCompat="@drawable/dot" />
+
+                <TextView
+                    android:id="@+id/job_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Gurgaon"
+                    android:textColor="@color/text_purple"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

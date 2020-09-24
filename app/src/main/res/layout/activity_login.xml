@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_layout_white"
+    android:orientation="vertical"
+    tools:context=".Activity.LogInActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/app_bar_gradient">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/Welcome_to_MoGo"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+    </FrameLayout>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/mobile_number"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:layout_marginEnd="30dp"-->
+    <!--        android:background="@drawable/editext_bg"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="@string/mobile_no"-->
+    <!--        android:inputType="phone"-->
+    <!--        android:padding="12dp"-->
+    <!--        android:textColor="@color/text_purple"-->
+    <!--        android:textColorHint="#aaa9e2"-->
+    <!--        android:textSize="14sp" />-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            app:contentColor="@color/colorAccent"
+            app:defaultNameCode="US" />
+
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:hint="@string/Mobile_Number"
+            android:inputType="number"
+            android:maxEms="10"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:textColor="@color/text_purple"
+            android:textColorHint="@color/text_purple"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_spinner"
+        android:ellipsize="marquee"
+        android:entries="@array/select_types"
+        android:prompt="@string/subjetc_prompt"
+        android:singleLine="true"
+        android:textColor="@color/lightest_purple"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/next_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/id_of_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1.3"
+            android:background="@color/grey" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.4"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/Or"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1.3"
+            android:background="@color/grey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_of_or"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Sign_in_with_Social_Networks"
+            android:textColor="@color/text_black"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/fb_color"
+                android:padding="10dp"
+                android:src="@drawable/facebook"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/twitter_color"
+                android:padding="10dp"
+                android:src="@drawable/twitter"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/linkedin_color"
+                android:padding="12dp"
+                android:src="@drawable/linkedin"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/instagram_color"
+                android:padding="10dp"
+                android:src="@drawable/instagram"
+                android:tint="@color/white" />
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/faceBook_Login"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_margin="5dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="@drawable/face_bg"-->
+            <!--                android:gravity="center"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:padding="5dp"-->
+            <!--                android:visibility="visible">-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="25dp"-->
+            <!--                    android:layout_height="25dp"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    android:tint="@color/white"-->
+            <!--                    app:srcCompat="@drawable/facebook" />-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:layout_marginLeft="5dp"-->
+            <!--                    android:layout_marginRight="5dp"-->
+            <!--                    android:fontFamily="sans-serif-medium"-->
+            <!--                    android:text="Facebook"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="14sp"-->
+            <!--                    android:textStyle="normal" />-->
+
+            <!--            </LinearLayout>-->
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/gmail_Login"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_margin="5dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="@drawable/google_bg"-->
+            <!--                android:gravity="center"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:padding="5dp">-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="25dp"-->
+            <!--                    android:layout_height="25dp"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    android:tint="@color/white"-->
+            <!--                    app:srcCompat="@drawable/google_logo" />-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_vertical"-->
+            <!--                    android:layout_marginLeft="5dp"-->
+            <!--                    android:layout_marginRight="5dp"-->
+            <!--                    android:fontFamily="sans-serif-medium"-->
+            <!--                    android:text="Google"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="14sp"-->
+            <!--                    android:textStyle="normal" />-->
+
+            <!--            </LinearLayout>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/video"
+        android:title="Video"
+        android:icon="@drawable/ic_video"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/call"
+        android:title="Call"
+        android:icon="@drawable/ic_call_chat"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/view_contact"
+        android:title="View Contact"
+        app:showAsAction="never"/>
+
+<!--    <item android:id="@+id/catalog"-->
+<!--        android:title="Catalog"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item android:id="@+id/jobs"-->
+<!--        android:title="Jobs"-->
+<!--        app:showAsAction="never"/>-->
+
+    <item android:id="@+id/wallpaper"
+        android:title="Wallpaper"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/starred_messages"
+        android:title="Starred Messages"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/more"
+        android:title="More"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/report"
+                android:title="Report"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/block"
+                android:title="Block"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+
+</menu>
